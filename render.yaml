@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: video-downloader-api
+    name: video-downloader-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python python_video_downloader.py
+    startCommand: python app.py
     envVars: []
